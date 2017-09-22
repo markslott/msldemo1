@@ -16,9 +16,9 @@
                 <label>Retailer</label>
             </value>
             <value>
-                <fullName>Merchandiser</fullName>
+                <fullName>Manufacturer</fullName>
                 <default>false</default>
-                <label>Merchandiser</label>
+                <label>Manufacturer</label>
             </value>
         </valueSetDefinition>
     </valueSet>

@@ -1,0 +1,662 @@
+[
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1506007295000,
+            "changeTime": 1506007295000,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1506007295000,
+            "changeTime": 1506007295000,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 408,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "792a0e904e9500138cfa4813818780ee933f5001",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/applications",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/applications",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "f8bf72172a024eb6afbf918d2fb53bb6c3e6c6b2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/applications/Recall_App.app-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/applications/Recall_App.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 433,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "83f0a3da1b66cdf461a0f59861494df45ee4e771",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/aura",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 68,
+            "modifiedTime": 1506007295000,
+            "changeTime": 1506007295000,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/classes",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "5cc02580601f58b73b0bab328c73e8c8119dc665",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/classes/RecallFormSimpleController.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/classes/RecallFormSimpleController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 291,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "82f99381482a3229c78b39fabbb74ab25cba1e0a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/classes/RecallFormSimpleController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/classes/RecallFormSimpleController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "734b048ce41db916f2088ea40ecdc25c420434ef",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/classes/RecallformSimpleControllerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/classes/RecallformSimpleControllerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 433,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "95d467f47bf616da2965b5e18e55ba36cbaa15f9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/classes/RecallformSimpleControllerTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/classes/RecallformSimpleControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "734b048ce41db916f2088ea40ecdc25c420434ef",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/flexipages",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/flexipages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "c34b6524e2811a4d39b1e4b9c1e54d49f083dacc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/flexipages/Recall_App_UtilityBar.flexipage-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/flexipages/Recall_App_UtilityBar.flexipage-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 384,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "1c50354cc12d250840166bbe1d024a38bbe08eeb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/layouts",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 170,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "fa94d22873099f0db29c960fe2bde76e904d3030",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/layouts/Recall__c-Fitbitz Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/layouts/Recall__c-Fitbitz Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2874,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024330000,
+            "contentHash": "71fd39bddb9e0b8617a131151c77895257e6135b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/layouts/Recall__c-Recall Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/layouts/Recall__c-Recall Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2941,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024330000,
+            "contentHash": "a524e72395ce083760983b440f96b1434a95c573",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/layouts/Recall__c-Tylenolz Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/layouts/Recall__c-Tylenolz Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2938,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "7b527d7be1e029f8b5960623e16bf806b62a3766",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1506012832000,
+            "changeTime": 1506012832000,
+            "contentHash": "22b4312aac93b50560253273a0a0ff1fbad98859",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "1c54bc044c26f9e73b31d783cd9e2108d7428596",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/Recall__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/Recall__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2131,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024330000,
+            "contentHash": "c61b08e59a6821ab848226564a8f060d3bdbf291",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 306,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "73db0120fc478b2f7dc5c643adde57355e24b227",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/Did_you_become_sick_after_taking_Tylenol__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/Did_you_become_sick_after_taking_Tylenol__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 835,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "bd8a561c19792684bc912f2a47718264fbda6526",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/Lot__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/Lot__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 353,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "54333070faa5393458e9e67ac222219fa64230c6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/NDC__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/NDC__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 352,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "503805ba08e68165e3e5993dbe668cc404e3da80",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/Retailer__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/Retailer__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1137,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "b8c06dddfa742d6f4eefef476942bc8189ff9238",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/Return_To__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/Return_To__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 823,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "dacbdbc02211471c8cf8abfd2355de696bb84b3e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/Serial_Number__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/Serial_Number__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 371,
+            "modifiedTime": 1506024239000,
+            "changeTime": 1506024239000,
+            "contentHash": "8e53a2b107236faca666f60bfc15b431089da16a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/Symptoms__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/fields/Symptoms__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 314,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "11600e49f1d55c84db4429489a7ef940213488f4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/listViews",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/listViews/All.listView-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/listViews/All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 204,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/recordTypes",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/recordTypes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "1500a2a57a07a7a2b4bb517f00d3999f9221d6bb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/recordTypes/Fitbitz.recordType-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/recordTypes/Fitbitz.recordType-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1384,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024330000,
+            "contentHash": "cc35f8ae02c8d307bac233b459f40794fd42327f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/recordTypes/Tylenolz.recordType-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/objects/Recall__c/recordTypes/Tylenolz.recordType-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1386,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024330000,
+            "contentHash": "3205f6a365a8489668e1fd261fc0b6e3aab8b673",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/pages",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/pages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "d013d6a292c22d67c8622cb87a066c9f5a9a6e34",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/pages/RecallFormSimple.page",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/pages/RecallFormSimple.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4501,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "56535428a50a87a5e5efc406b5241e01470eb01d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/pages/RecallFormSimple.page-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/pages/RecallFormSimple.page-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 292,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "2c641b8899b10c6a2374f37ca225afbba5c803c9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/permissionsets",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/permissionsets",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "5fa267f1f72f588099fb99d0933f7959c87bb1a7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/permissionsets/Recall_App_Perms.permissionset-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/permissionsets/Recall_App_Perms.permissionset-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2226,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "992d24d6a1601db92fba6a781c2a56331b16741d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/staticresources",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/staticresources",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "ab5d5ad5a956a053be1b6efeaa43d5708a5c3085",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/staticresources/stericycle_logo.resource",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/staticresources/stericycle_logo.resource",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 16993,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "77b59fae1b9087d86e9f5826b2f99cae960e99a1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/staticresources/stericycle_logo.resource-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/staticresources/stericycle_logo.resource-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 205,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "65bd6cd669a881e8c51f0eb58b5a3db71f2ae285",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/tabs",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/tabs",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "d37800eb76e2d4eb7b84387f1e1ea5148fbc80cf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/tabs/Recall__c.tab-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo/force-app/main/default/tabs/Recall__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 221,
+            "modifiedTime": 1506024329000,
+            "changeTime": 1506024329000,
+            "contentHash": "75215d73ba88fdbc03728d0e663651a057b2b7a1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mlott/git-stericycle/StericycleDemo",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mlott/git-stericycle/StericycleDemo",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 442,
+            "modifiedTime": 1506012832000,
+            "changeTime": 1506012832000,
+            "contentHash": "7298af4ef4c44782b186dbeba8cec64cb382c0cd",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]

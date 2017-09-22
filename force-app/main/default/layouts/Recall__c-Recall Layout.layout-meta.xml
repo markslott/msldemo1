@@ -38,6 +38,10 @@
                 <behavior>Edit</behavior>
                 <field>Symptoms__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Contact__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

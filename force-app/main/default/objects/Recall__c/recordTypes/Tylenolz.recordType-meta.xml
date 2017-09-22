@@ -36,7 +36,7 @@
     <picklistValues>
         <picklist>Return_To__c</picklist>
         <values>
-            <fullName>Merchandiser</fullName>
+            <fullName>Manufacturer</fullName>
             <default>false</default>
         </values>
         <values>
