@@ -9,10 +9,22 @@
             autocomplete.addListener('place_changed', function() {
                 var place = autocomplete.getPlace();
                 console.log(place);
-                document.getElementById('page:theForm:pb:pbs:street').value = place.address_components[0].short_name + ' ' + place.address_components[1].short_name;
-                document.getElementById('page:theForm:pb:pbs:city').value = place.address_components[3].long_name;
-                document.getElementById('page:theForm:pb:pbs:state').value = place.address_components[5].long_name;
-                document.getElementById('page:theForm:pb:pbs:postalcode').value = place.address_components[7].long_name;
+                var elementMap = [];
+                elementMap['street_number'] = 'page:theForm:pb:pbs:street';
+                elementMap['route'] = 'page:theForm:pb:pbs:street';
+                elementMap['locality'] = 'page:theForm:pb:pbs:city';
+                elementMap['administrative_area_level_1'] = 'page:theForm:pb:pbs:state';
+                elementMap['postal_code'] = 'page:theForm:pb:pbs:postalcode';
+                for (var i = 0; i < place.address_components.length; i++) {
+                    var addressType = place.address_components[i].types[0];
+                    if (elementMap[addressType]) {
+                        var val = place.address_components[i].long_name;
+                        if (addressType == 'route')
+                    		document.getElementById(elementMap[addressType]).value += ' ' + val;
+                        else
+                            document.getElementById(elementMap[addressType]).value = val;
+                    }
+                }        
             });
         }
         google.maps.event.addDomListener(window, 'load', initializeField);
