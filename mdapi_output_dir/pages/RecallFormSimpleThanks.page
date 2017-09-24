@@ -1,0 +1,21 @@
+<apex:page standardController="Contact" extensions="RecallFormSimpleController" showHeader="false" id="page">
+    <div>   
+        <apex:image value="{!$Resource.stericycle_logo}" style="float:left"/>
+        <p style="font-weight: bold; font-size: x-large; padding-top: 115px;">
+            {!$Label.Recall_Form_Title}
+        </p>
+    </div>
+    <div style="padding-top:100px">
+        <br/>
+        <p style="text-align:center">
+            {!$Label.Recall_Form_Thank_You}
+        </p>
+        <apex:outputPanel rendered="{!recall.Return_To__c == 'Manufacturer'}">
+            <br/>
+            <p style="text-align:center">
+                {!$Label.Recall_Form_Return_Instructions}  
+            </p>
+        </apex:outputPanel>
+    </div>
+    
+</apex:page>

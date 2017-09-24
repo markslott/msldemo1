@@ -1,0 +1,84 @@
+<apex:page standardController="Contact" extensions="RecallFormSimpleController" id="page">
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwf3bT7BhOz_-EAqbdx4sRVkhHICPd3Qw&libraries=places" type="text/javascript">
+	</script>
+
+	<script type="text/javascript">
+        function initializeField() {
+            var input = document.getElementById('page:theForm:pb:pbs:pbsi:address');
+            var autocomplete = new google.maps.places.Autocomplete(input);
+            autocomplete.addListener('place_changed', function() {
+                var place = autocomplete.getPlace();
+                console.log(place);
+                var elementMap = [];
+                elementMap['street_number'] = 'page:theForm:pb:pbs:street';
+                elementMap['route'] = 'page:theForm:pb:pbs:street';
+                elementMap['locality'] = 'page:theForm:pb:pbs:city';
+                elementMap['administrative_area_level_1'] = 'page:theForm:pb:pbs:state';
+                elementMap['postal_code'] = 'page:theForm:pb:pbs:postalcode';
+                for (var i = 0; i < place.address_components.length; i++) {
+                    var addressType = place.address_components[i].types[0];
+                    if (elementMap[addressType]) {
+                        var val = place.address_components[i].long_name;
+                        if (addressType == 'route')
+                    		document.getElementById(elementMap[addressType]).value += ' ' + val;
+                        else
+                            document.getElementById(elementMap[addressType]).value = val;
+                    }
+                }        
+            });
+        }
+        google.maps.event.addDomListener(window, 'load', initializeField);
+    </script>
+
+    <apex:form id="theForm">
+        <apex:image value="{!$Resource.stericycle_logo}" style="float:left"/>
+        <p style="font-weight: bold; font-size: x-large; padding-top: 115px;">
+            {!$Label.Recall_Form_Title}
+        </p>
+        <apex:messages />
+        <apex:pageBlock id="pb">
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!submitForm}" value="{!$Label.Recall_Form_Button}"/>
+            </apex:pageBlockButtons>
+            <apex:PageBlockSection columns="1" id="pbs">
+                <apex:inputField value="{!Contact.FirstName}" id="firstName"/>
+                <apex:inputField value="{!Contact.LastName}"/>
+                <apex:inputField value="{!Contact.Email}"/>
+                <apex:pageBlockSectionItem id="pbsi">
+                    <apex:outputLabel value="{!$Label.Recall_Address}" for="address"/>
+                	<apex:inputText id="address" title="{!$Label.Recall_Address}" style="width:100%"/>
+                </apex:pageBlockSectionItem>
+                <apex:inputField value="{!Contact.MailingStreet}" id="street"/>
+                <apex:inputField value="{!Contact.MailingCity}" id="city"/>
+                <apex:inputField value="{!Contact.MailingState}" id="state"/>
+                <apex:inputField value="{!Contact.MailingPostalCode}" id="postalcode"/>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="{!$Label.Recall_Type}" for="recordType"/>
+                <apex:selectList value="{!recordTypeId}" multiselect="false" id="recordType" >
+                    <apex:selectOptions value="{!RecordTypes}"/>
+                    <apex:actionsupport event="onchange" action="{!updateRecordType}" />
+                </apex:selectList>
+                </apex:pageBlockSectionItem>
+            </apex:PageBlockSection>
+            <apex:pageBlockSection columns="1" rendered="{!recordTypeName == 'Fitbitz'}">
+                <apex:inputField value="{!recall.Serial_Number__c}"/>
+                <apex:inputField value="{!recall.Return_To__c}">
+                    <apex:actionsupport event="onchange" action="{!updatePage}" />
+                </apex:inputField>
+                <apex:inputField value="{!recall.Retailer__c}" rendered="{!recall.Return_To__c == 'Retailer'}">
+                    <apex:actionsupport event="onchange" action="{!updatePage}" />
+                </apex:inputField>
+                <apex:pageBlockSectionItem rendered="{!recall.Return_To__c == 'Manufacturer'}">
+                    <apex:outputLabel value="{!$Label.Recall_Attachment}" for="attachment"/>
+                    <apex:inputFile value="{!fileAttachment.body}" fileName="{!fileAttachment.Name}" id="attachment"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection columns="1" rendered="{!recordTypeName == 'Tylenolz'}">
+                <apex:inputField value="{!recall.NDC__c}"/>
+                <apex:inputField value="{!recall.Lot__c}"/>
+                <apex:inputField value="{!recall.Did_you_become_sick_after_taking_Tylenol__c}"/>
+                <apex:inputField value="{!recall.Symptoms__c}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

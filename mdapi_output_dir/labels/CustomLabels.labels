@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Recall_Address</fullName>
+        <categories>RecallForm</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Recall Address</shortDescription>
+        <value>Address</value>
+    </labels>
+    <labels>
+        <fullName>Recall_Attachment</fullName>
+        <categories>RecallForm</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Recall Attachment</shortDescription>
+        <value>Attachment</value>
+    </labels>
+    <labels>
+        <fullName>Recall_Form_Button</fullName>
+        <categories>RecallForm</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Recall Form Button</shortDescription>
+        <value>Submit form</value>
+    </labels>
+    <labels>
+        <fullName>Recall_Form_Return_Instructions</fullName>
+        <categories>RecallForm</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Recall Form Return Instructions</shortDescription>
+        <value>You have selected to return to the manufacturer. Detailed instructions would go here...</value>
+    </labels>
+    <labels>
+        <fullName>Recall_Form_Thank_You</fullName>
+        <categories>RecallForm</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Recall Form Thank You</shortDescription>
+        <value>Your recall form has been submitted. Thank you.</value>
+    </labels>
+    <labels>
+        <fullName>Recall_Form_Title</fullName>
+        <categories>RecallForm</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Recall Form Title</shortDescription>
+        <value>Product Recall Form</value>
+    </labels>
+    <labels>
+        <fullName>Recall_Type</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Recall Type</shortDescription>
+        <value>Type</value>
+    </labels>
+</CustomLabels>

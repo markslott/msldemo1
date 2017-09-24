@@ -1,0 +1,19 @@
+<messaging:emailTemplate subject="Recall" recipientType="Contact" relatedToType="Recall__c">
+
+        <messaging:htmlEmailBody >
+        <html>
+        <style type="text/css">
+            body {font-family: Courier; size: 12pt;}
+            
+            
+        </style>
+        <body>
+            <img src="https://www.stericycle.com/Stericycle/ImageFolder/stericycle-logo.svg"/>
+            <p>Dear, {!recipient.FirstName},</p>
+            <p>Thank you for submitting the recall form. Your Fitbitz with serial number {!relatedTo.Serial_Number__c}
+            matches our recall list. You will be receiving a $50 reimbursement check.</p>
+        </body>
+        </html>
+    </messaging:htmlEmailBody>
+
+</messaging:emailTemplate>
